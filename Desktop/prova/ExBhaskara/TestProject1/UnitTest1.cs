@@ -7,13 +7,13 @@ namespace TestProject1
     public class UnitTest1
     {
         [Theory]
-        [InlineData(-10, 10)]
-        [InlineData(1, -7)]
-        [InlineData(-4, -4)]
-        public void TesteCalculo(int a, int b, int c,  double resultadodoteste)
+        [InlineData(3, -15, 12)]
+        [InlineData(9, -24, 16)]
+        [InlineData(1, -2, 4)]
+        public void TesteCalculo(float a, float b, float c,  float resultadodoteste)
         {
             //arrange
-            double resultado;
+            float resultado;
 
             Exercicio ExercicioTeste = new Exercicio();
             //act
